@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(73, 72, 72);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+body {
+  background-color: rgb(33, 14, 54);
+}
+header > nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+header > nav a {
+  text-decoration: none;
+  color: green;
+  font-weight: 800;
+}
+header > a img {
+  height: auto;
+  width: 5rem;
+  border-style: solid;
+  color: green;
+  padding: 0.5rem;
+}
